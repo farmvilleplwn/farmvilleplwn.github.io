@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+        /*------- Utility Classes--------- */
+.container {
+    margin: auto;
+    max-width: 1100px;
+    padding: 20px;
+    overflow: auto;
+    background-image: url(../img/);
+    border-style: dotted;
+}
+.text-primary {
+    color: #80FF00;
+    border-style: dotted;
+    border-radius: 5px;
+    padding: 5px;
+    border-color: yellow;
+}
+
+.lead {
+    font-size: larger;
+}
+.btn {
+    display: inline-block;
+    padding: 13px 20px;
+    font-size: 18px;
+    background: #9ACD32;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #DDEEBC;
+    color: #fff;
+}
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+    
+}
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+.bg-primary {
+    background: #f7c0f7;
+    color: #333;
+}
+
+.clr {
+    clear: both;
+}
+
+.l-heading {
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+        /* ---------Common Classes ----------*/
+a {
+    text-decoration: none;
+}
+
+h1,h2,h3 {
+    padding: 20px;
+    padding-left: 0px;
+    color: #BEDF7C;
+}
+p {
+    margin: 10px 0;
+}
+
+#navbar {
+    background: linear-gradient(white, green);
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar .logo {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+}
+#navbar ul li a:hover, 
+#navbar ul li a.current {
+    background-color: #DDEEBC;
+    color: #9ACD32;
+}
+
+#showcase {
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-content {
+    text-align: center;
+    color: #fff;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+#showcase .showcase-content p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 1.7em;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+#home-info {
+    height: 700px;
+}
+
+.info-content img{
+  padding-top: 50px;
+  height: 300px;
+  width: 500px;
+  margin: 10px;
+  object-fit: cover;
+  background: url('../img/photo-1.jpg') no-repeat center center/cover;
+}
+
+#home-info .info-content {
+    whidth: 50%;
+    height: 100%;
+    text-align: center;
+    padding:0px;
+    overflow: hidden;
+    border:0px;
+}
+#home-info .info-content p {
+    padding-bottom: 30px;
+}
+
+
+.box {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 50px 0;
+    
+    
+}
+
+.main-footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+}
+
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+
+#testimonials {
+    height: 100%;
+    background: url('../img/test-bg.jpg') no-repeat center center/cover;
+    padding-top: 100px;
+}
+
+#testimonials h2 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#testimonials .testimonial {
+    padding: 20px;
+    margin-bottom: 40px;
+    height: 100px;
+    border-radius: 5px;
+    opacity: 0.9;
+    
+}
+
+#testimonials .testimonial img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    align-items: center;
+    
+}
+
+
+#contact-form .form-group {
+    margin-bottom: 20px;
+    padding: 0;
+   
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+} 
+
+#contact-form input,
+#contact-form textarea {
+    width: 99%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+}
+#contact-form textarea {
+    height: 200px;
+}
+
+.logoimg img{
+    overflow: auto;
+    width: 100%;
+    height: 50%;
+}
